@@ -1,0 +1,19 @@
+Add transaction fees into each transaction.
+
+Instead of using pending transactions array for mining, compute merkel root.
+
+Declare API callback functions in separate file so that they can be used internally as well.
+
+After registering and broadcasting a new network node, send the entire blockchain to the new node as well. (For this consensus algorithm can be used)
+
+Use typescript for strict type checks and better security/error handling.
+
+Store the blockchain data in some kind of data storage so that it's not lost on server restart. Maybe redis or mongo.
+
+Use lodash for checking empty values and other utilities for better edge cases coverage.
+
+Call consensus on a new node when it's registered on the network.
+
+Enhance blockchain explorer. By default show entire blockchain. Have search in a different tab. Try to make a common search.
+
+Check for available balance with the sender before creating a new transaction.

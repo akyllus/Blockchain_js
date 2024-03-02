@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Block Explorer</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js" integrity="sha512-ZY5yFZvHUU7I198LSR3alWVz4xP8M2IhOjUKPfjzbxJDyjWhBcvJ6oUYEo8/6rKsgNS7pD3oFtzu6iM9mD/gQg==" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <style type="text/css">
+        html, body {
+            min-height: 100vh;
+            background-color: #e8e8e8;
+        }
+        body {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        header, footer {
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .table-title {
+            margin-bottom: 20px;
+        }
+        .table {
+            background-color: #ffffff;
+            box-shadow: 2px 2px 15px -3px rgba(0,0,0,0.75);
+        }
+        #balance-text {
+            text-align: center;
+            margin-top: -20px;
+            margin-bottom: 30px;
+        }
+        .margin-auto {
+            margin: auto;
+            display: block;
+        }
+        .btn-search {
+            margin-bottom: 50px;
+        }
+        .bold {
+            font-weight: 700;
+        }
+        .no-data-text {
+            color: red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body ng-app="BlockExplorer">
+    <header
